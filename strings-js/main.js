@@ -8,3 +8,29 @@ function greet() {
 
 
 button.addEventListener("click", greet);
+
+// Concatenation using "+" 
+
+const greeting2 = "Hello";
+const name2 = "Neith";
+console.log(greeting2 + " , " + name2 );
+
+// However, template literals usually give you more readable code:
+
+const greeting3 = "Hello";
+const name3 = "Neith";
+console.log(`${greeting3} , ${name3}`);
+
+
+// Including expressions in strings,
+
+const song = "Me pierdo en el deseo"
+const score = 9;
+const highScore = 10;
+const ouput = `Me gusta the song ${song} Y en la escala de mis gustos tiene un ${
+(score / highScore) * 100
+}% de que sea de mi agrado)`;
+
+console.log(ouput);
+
+
