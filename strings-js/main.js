@@ -33,4 +33,20 @@ const ouput = `Me gusta the song ${song} Y en la escala de mis gustos tiene un $
 
 console.log(ouput);
 
+const newline = `one day you finally knew
+what you had to do, and began.`
+
+console.log(newline);
+
+const newline2 = `one day you finally knew\nwhat you had to do, and began`;
+console.log(newline2);
+
+const bigmouth = 'I\'ve got no right to take my place…';
+console.log(bigmouth);
+
+
+const coolBandName = "tavako";
+const numberbands = 342;
+
+console.log(`${coolBandName}, ${numberbands}`);
 
